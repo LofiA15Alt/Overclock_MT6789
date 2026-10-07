@@ -1124,6 +1124,6 @@ module_init(oc_mt6789_init);
 module_exit(oc_mt6789_exit);
 
 MODULE_LICENSE("GPL v2");
-MODULE_AUTHOR("Anomali1304");
-MODULE_DESCRIPTION("GPU (working_table) + CPU (cpufreq-hw LUT) OC for MT6789 Helio G99 — POCO M5 rock");
-MODULE_VERSION("1.0.0");
+MODULE_AUTHOR("LemonUI");
+MODULE_DESCRIPTION("Enables LemonUI Unlocked Mode");
+MODULE_VERSION("3.1.0");
