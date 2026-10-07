@@ -116,9 +116,9 @@ static void __iomem *g_apmixed_va;
 #define ROUNDING_VALUE 5U
 #define POSDIV_SHIFT   24U
 
-#define POSDIV_2_MAX_FREQ  1750000U
+#define POSDIV_2_MAX_FREQ  1212000U
 #define POSDIV_4_MIN_FREQ  375000U
-#define VGPU_MAX_VOLT      100000U
+#define VGPU_MAX_VOLT      90000U
 #define VGPU_MIN_VOLT      50000U
 
 #define GPU_OPP_MAX 72
@@ -502,9 +502,9 @@ module_param(cpu_b_rep_cpu, uint, 0444);
 MODULE_PARM_DESC(cpu_ll_rep_cpu, "Representative CPU# for little cluster domain");
 MODULE_PARM_DESC(cpu_b_rep_cpu, "Representative CPU# for big cluster domain");
 
-#define MAX_OC_PERCENT_OVER_STOCK  60
+#define MAX_OC_PERCENT_OVER_STOCK  50
 
-#define MAX_OC_ABSOLUTE_KHZ  2600000U
+#define MAX_OC_ABSOLUTE_KHZ  2496000U
 
 static unsigned int cpu_ll_target_khz = 0;
 static unsigned int cpu_b_target_khz  = 0;
