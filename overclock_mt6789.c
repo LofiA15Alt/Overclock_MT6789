@@ -502,9 +502,9 @@ module_param(cpu_b_rep_cpu, uint, 0444);
 MODULE_PARM_DESC(cpu_ll_rep_cpu, "Representative CPU# for little cluster domain");
 MODULE_PARM_DESC(cpu_b_rep_cpu, "Representative CPU# for big cluster domain");
 
-#define MAX_OC_PERCENT_OVER_STOCK  50
+#define MAX_OC_PERCENT_OVER_STOCK  30
 
-#define MAX_OC_ABSOLUTE_KHZ  2496000U
+#define MAX_OC_ABSOLUTE_KHZ  2296000U
 
 static unsigned int cpu_ll_target_khz = 0;
 static unsigned int cpu_b_target_khz  = 0;
